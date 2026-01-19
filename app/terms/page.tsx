@@ -26,7 +26,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-white mb-4">Acceptance of Terms</h2>
               <p className="text-white/80 leading-relaxed">
-                By accessing and using Indiana iLearn Practice Exams ("the Service"), you accept and agree to 
+                By accessing and using Indiana iLearn Practice Exams (&quot;the Service&quot;), you accept and agree to 
                 be bound by the terms and provision of this agreement. If you do not agree to abide by the 
                 above, please do not use this service.
               </p>
@@ -44,7 +44,7 @@ export default function TermsPage() {
                 <li>Use the materials for any commercial purpose or for any public display</li>
                 <li>Attempt to reverse engineer any software contained on the website</li>
                 <li>Remove any copyright or other proprietary notations from the materials</li>
-                <li>Transfer the materials to another person or "mirror" the materials on any other server</li>
+                <li>Transfer the materials to another person or &quot;mirror&quot; the materials on any other server</li>
               </ul>
             </section>
 
@@ -61,7 +61,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-white mb-4">Disclaimer</h2>
               <p className="text-white/80 leading-relaxed mb-4">
-                The materials on Indiana iLearn Practice Exams are provided on an 'as is' basis. We make no 
+                The materials on Indiana iLearn Practice Exams are provided on an &apos;as is&apos; basis. We make no 
                 warranties, expressed or implied, and hereby disclaim and negate all other warranties including, 
                 without limitation:
               </p>
@@ -98,8 +98,8 @@ export default function TermsPage() {
               <h2 className="text-2xl font-bold text-white mb-4">Links</h2>
               <p className="text-white/80 leading-relaxed">
                 We have not reviewed all of the sites linked to our website and are not responsible for the 
-                contents of any such linked site. The inclusion of any link does not imply endorsement by us. 
-                Use of any such linked website is at the user's own risk.
+                contents of any such linked site.                 The inclusion of any link does not imply endorsement by us. 
+                Use of any such linked website is at the user&apos;s own risk.
               </p>
             </section>
 

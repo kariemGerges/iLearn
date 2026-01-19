@@ -131,7 +131,7 @@ npm run build`}
             <section>
               <h2 className="text-2xl font-bold text-white mb-4">Contributing</h2>
               <p className="text-white/80 leading-relaxed mb-4">
-                Contributions are welcome! If you'd like to contribute:
+                Contributions are welcome! If you&apos;d like to contribute:
               </p>
               <ul className="list-disc list-inside ml-4 space-y-2 text-white/80">
                 <li>Fork the repository</li>

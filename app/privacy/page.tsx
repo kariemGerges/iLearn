@@ -26,7 +26,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-2xl font-bold text-white mb-4">Introduction</h2>
               <p className="text-white/80 leading-relaxed">
-                Indiana iLearn Practice Exams ("we", "our", or "us") is committed to protecting your privacy. 
+                Indiana iLearn Practice Exams (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy. 
                 This Privacy Policy explains how we collect, use, and safeguard information when you use our 
                 practice exam website.
               </p>
@@ -95,7 +95,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Children's Privacy</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">Children&apos;s Privacy</h2>
               <p className="text-white/80 leading-relaxed">
                 Our practice exams are designed for educational purposes and are suitable for children. 
                 We do not knowingly collect personal information from children under 13. Since we do not 
