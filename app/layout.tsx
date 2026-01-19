@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ilearn-practice-exam.vercel.app'), // Update with your actual domain
+  metadataBase: new URL('https://ilearn-ten.vercel.app/'), // Update with your actual domain
   title: {
     default: "Indiana iLearn 4th Grade Practice Exams - Math & ELA Test Prep",
     template: "%s | Indiana iLearn Practice"
@@ -126,7 +126,9 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+      </body>
     </html>
   );
 }
