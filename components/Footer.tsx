@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* About Section */}
           <div>
-            <h3 className="text-xl font-bold text-white mb-4">About</h3>
+            <h3 className="text-xl font-bold text-black mb-4">About</h3>
             <p className="text-white/80 text-sm mb-4">
               Free Indiana iLearn 4th grade practice exams designed to help students prepare for the official assessment.
             </p>
@@ -18,7 +18,7 @@ export default function Footer() {
 
           {/* Contact Information */}
           <div>
-            <h3 className="text-xl font-bold text-white mb-4">Contact</h3>
+            <h3 className="text-xl font-bold text-black mb-4">Contact</h3>
             <div className="space-y-2 text-white/80 text-sm">
               <p>
                 <span className="font-semibold">Email:</span>{' '}
@@ -37,7 +37,7 @@ export default function Footer() {
 
           {/* Links Section */}
           <div>
-            <h3 className="text-xl font-bold text-white mb-4">Connect</h3>
+            <h3 className="text-xl font-bold text-black mb-4">Connect</h3>
             <div className="flex flex-col space-y-3">
               <a
                 href="https://github.com/kariemGerges"

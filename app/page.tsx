@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import ExamCard from "@/components/ExamCard";
-import ExamInfo from "@/components/ExamInfo";
 import Footer from "@/components/Footer";
+import AnimatedHomeContent from "@/components/AnimatedHomeContent";
 
 export const metadata: Metadata = {
   title: "Indiana iLearn 4th Grade Practice Exams - Free Math & ELA Test Prep",
@@ -99,7 +97,7 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-sky-500 via-cyan-500 to-teal-500 py-12 px-4">
+    <main className="min-h-screen bg-gradient-to-br from-sky-500 via-cyan-500 to-teal-500">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -109,30 +107,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
       />
       <Header />
-      <div className="max-w-6xl mx-auto">
-        <Hero />
-
-        {/* Subject Selection */}
-        <div className="grid md:grid-cols-2 gap-8 mb-8">
-          <ExamCard
-            subject="math"
-            title="Mathematics"
-            questionCount="44 Questions"
-            timeRange="70-100 Minutes"
-            description="Covers: Number Sense, Computation, Geometry, Measurement, Data Analysis"
-          />
-          <ExamCard
-            subject="ela"
-            title="English Language Arts"
-            questionCount="40 Questions"
-            timeRange="90 Minutes"
-            description="Covers: Reading Foundations, Reading Comprehension, Vocabulary, Grammar, Writing"
-          />
-        </div>
-
-        <ExamInfo />
-      </div>
-
+      <AnimatedHomeContent />
       <Footer />
     </main>
   );
